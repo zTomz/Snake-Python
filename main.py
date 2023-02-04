@@ -16,11 +16,6 @@ pygame.display.set_caption("Snake")
 
 snake = Snake(display)
 
-# snakeTile = SnakeTile(10, 10, display) # 0-19
-# snakeGroup.append(snakeTile)
-# snakeGroup.append(SnakeTile(9, 10, display))
-# snakeGroup.append(SnakeTile(8, 10, display))
-
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
